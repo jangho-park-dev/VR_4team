@@ -160,6 +160,26 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 10830590, guid: 39b43e271567b4134a12f482c52c8a0f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.74249643
+      objectReference: {fileID: 0}
+    - target: {fileID: 10830590, guid: 39b43e271567b4134a12f482c52c8a0f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.012949424
+      objectReference: {fileID: 0}
+    - target: {fileID: 10830590, guid: 39b43e271567b4134a12f482c52c8a0f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 10830590, guid: 39b43e271567b4134a12f482c52c8a0f, type: 3}
+      propertyPath: m_Intensity
+      value: 2.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 10830590, guid: 39b43e271567b4134a12f482c52c8a0f, type: 3}
+      propertyPath: m_Range
+      value: 5.63
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39b43e271567b4134a12f482c52c8a0f, type: 3}
 --- !u!1001 &187016277
@@ -211,6 +231,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8db5b99e1590340a4a7166fa4c9f9cf2, type: 3}
+--- !u!1 &383768567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 152458, guid: 39b43e271567b4134a12f482c52c8a0f,
+    type: 3}
+  m_PrefabInstance: {fileID: 16739066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &383768570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383768567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 0.9605424, b: 0.033018887, a: 0}
+  endColor: {r: 0.69152355, g: 0, b: 1, a: 0}
 --- !u!1001 &485124250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -377,7 +417,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
