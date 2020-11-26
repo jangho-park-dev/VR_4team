@@ -2891,6 +2891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16374498}
   - component: {fileID: 5908484}
+  - component: {fileID: 16595313}
   m_Layer: 0
   m_Name: Spotlight
   m_TagString: Untagged
@@ -2898,6 +2899,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &16595313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16595312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 0.759434, b: 0.759434, a: 0}
+  endColor: {r: 0.6556604, g: 0.8728501, b: 1, a: 0}
 --- !u!1 &16595356
 GameObject:
   m_ObjectHideFlags: 0
@@ -3287,6 +3302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16367350}
   - component: {fileID: 5927412}
+  - component: {fileID: 16642791}
   m_Layer: 0
   m_Name: Spotlight
   m_TagString: Untagged
@@ -3294,6 +3310,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &16642791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16642790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 0, b: 0.8595643, a: 0}
+  endColor: {r: 0.16316223, g: 1, b: 0, a: 0}
 --- !u!1 &16644206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,6 +3484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16314114}
   - component: {fileID: 5841698}
+  - component: {fileID: 16693741}
   m_Layer: 0
   m_Name: Spotlight
   m_TagString: Untagged
@@ -3461,6 +3492,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &16693741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16693740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.9811321, g: 0.85617656, b: 0.85617656, a: 0}
+  endColor: {r: 0.9622642, g: 0.7066879, b: 0.52198297, a: 0}
 --- !u!1 &16694572
 GameObject:
   m_ObjectHideFlags: 0
@@ -6424,6 +6469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 364835660}
   - component: {fileID: 364835661}
+  - component: {fileID: 364835662}
   m_Layer: 0
   m_Name: Spotlight (7)
   m_TagString: Untagged
@@ -6506,6 +6552,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &364835662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364835659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.53703153, g: 1, b: 0.11792451, a: 0}
+  endColor: {r: 0.7361652, g: 0.19517623, b: 0.9622642, a: 0}
 --- !u!1 &390941062
 GameObject:
   m_ObjectHideFlags: 0
@@ -7146,6 +7206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526363781}
   - component: {fileID: 526363782}
+  - component: {fileID: 526363783}
   m_Layer: 0
   m_Name: Spotlight (1)
   m_TagString: Untagged
@@ -7228,6 +7289,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &526363783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526363780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.47559386, g: 1, b: 0.28773582, a: 0}
+  endColor: {r: 0.83936644, g: 0.5801887, b: 1, a: 0}
 --- !u!1 &540521139
 GameObject:
   m_ObjectHideFlags: 0
@@ -7238,6 +7313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 540521140}
   - component: {fileID: 540521141}
+  - component: {fileID: 540521142}
   m_Layer: 0
   m_Name: Spotlight (1)
   m_TagString: Untagged
@@ -7320,6 +7396,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &540521142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540521139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.0046724924, g: 0.33238453, b: 0.990566, a: 0}
+  endColor: {r: 0, g: 1, b: 0.55506897, a: 0}
 --- !u!1 &544102669
 GameObject:
   m_ObjectHideFlags: 0
@@ -7409,6 +7499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586948078}
   - component: {fileID: 586948079}
+  - component: {fileID: 586948080}
   m_Layer: 0
   m_Name: Spotlight (3)
   m_TagString: Untagged
@@ -7491,6 +7582,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &586948080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586948077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.990566, g: 0.9169878, b: 0, a: 0}
+  endColor: {r: 1, g: 0.07075471, b: 0.5747055, a: 0}
 --- !u!1 &600217812
 GameObject:
   m_ObjectHideFlags: 0
@@ -8369,6 +8474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 829005994}
   - component: {fileID: 829005995}
+  - component: {fileID: 829005996}
   m_Layer: 0
   m_Name: Spotlight (2)
   m_TagString: Untagged
@@ -8451,6 +8557,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &829005996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829005993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 1, b: 1, a: 0}
+  endColor: {r: 1, g: 0, b: 0.8093586, a: 0}
 --- !u!1 &859811673
 GameObject:
   m_ObjectHideFlags: 0
@@ -9073,6 +9193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1078919330}
   - component: {fileID: 1078919331}
+  - component: {fileID: 1078919332}
   m_Layer: 0
   m_Name: Spotlight (6)
   m_TagString: Untagged
@@ -9155,6 +9276,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1078919332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078919329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 0.2028302, b: 0.63020694, a: 0}
+  endColor: {r: 0.9622642, g: 0.6373722, b: 0.36765754, a: 0}
 --- !u!1001 &1093561760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9932,6 +10067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1283651445}
   - component: {fileID: 1283651446}
+  - component: {fileID: 1283651447}
   m_Layer: 0
   m_Name: Spotlight (8)
   m_TagString: Untagged
@@ -10014,6 +10150,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1283651447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283651444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 0.18396229, b: 0.18396229, a: 0}
+  endColor: {r: 0.2028302, g: 0.8521359, b: 1, a: 0}
 --- !u!1001 &1296590111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13006,6 +13156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1519800765}
   - component: {fileID: 1519800766}
+  - component: {fileID: 1519800767}
   m_Layer: 0
   m_Name: Spotlight (4)
   m_TagString: Untagged
@@ -13088,6 +13239,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1519800767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519800764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.34469807, g: 0.9811321, b: 0.14346743, a: 0}
+  endColor: {r: 0.9716981, g: 0.18792273, b: 0.6389074, a: 0}
 --- !u!33 &1527120138
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15532,6 +15697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1758019899}
   - component: {fileID: 1758019900}
+  - component: {fileID: 1758019901}
   m_Layer: 0
   m_Name: Spotlight (5)
   m_TagString: Untagged
@@ -15614,6 +15780,20 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1758019901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758019898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8276d74c93c13f04c9b2b5489fd0c472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.33490568, g: 0.4794538, b: 1, a: 0}
+  endColor: {r: 0.9811321, g: 0.087931626, b: 0.98076665, a: 0}
 --- !u!1 &1775126663
 GameObject:
   m_ObjectHideFlags: 0
