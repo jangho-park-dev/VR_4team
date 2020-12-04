@@ -34,11 +34,17 @@ public class BallController : MonoBehaviour
             // GetComponent<Rigidbody>().velocity = Vector3.Normalize(GetComponent<Rigidbody>().velocity) * (원하는 속도);
             rb.velocity = Vector3.Normalize(rb.velocity) * startVelocity.magnitude * 3.0f;
         }
+
+        if (rb.transform.position.z >= 20.0f)
+        {
+            Reset();
+        }
     }
 
     public void Reset()
     {
         GetComponent<Transform>().position = startPos;
         GetComponent<Transform>().rotation = startRotation;
+        rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
     }
 }
