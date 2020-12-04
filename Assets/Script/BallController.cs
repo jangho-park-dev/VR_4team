@@ -37,7 +37,7 @@ public class BallController : MonoBehaviour
 
         if (rb.transform.position.z >= 20.0f)
         {
-            Reset();
+            GameObject.Find("GameManager").GetComponent<GameManager>().Reset();
         }
     }
 
