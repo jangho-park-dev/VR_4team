@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
     public GameObject CameraManager;
+    public GameObject PinManager;
+    public GameObject MainBall;
 
     void Awake()
     {
@@ -25,11 +27,18 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            CameraManager.GetComponent<CameraManager>().ShowFirstPersonView();
+            Reset();
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
             CameraManager.GetComponent<CameraManager>().ShowOverheadView();
         }
+    }
+
+    public void Reset()
+    {
+        MainBall.GetComponent<BowlingBall>().Reset();       // 공 원위치
+        PinManager.GetComponent<PinManager>().Reset();      // 볼링핀 원위치
+        CameraManager.GetComponent<CameraManager>().ShowMainView(); // 메인 카메라로 전환
     }
 }

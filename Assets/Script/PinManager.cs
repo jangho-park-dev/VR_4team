@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PinManager : MonoBehaviour
 {
-
     public List<GameObject> pins;
 
     // Start is called before the first frame update
@@ -21,6 +20,9 @@ public class PinManager : MonoBehaviour
 
     public void Reset()
     {
-
+        foreach (GameObject pin in pins)
+        {
+            pin.GetComponent<BowlingPin>().Reset();
+        }
     }
 }

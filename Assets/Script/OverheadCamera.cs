@@ -18,7 +18,6 @@ public class OverheadCamera : MonoBehaviour
     {
         Vector3 targetPos = targetTransform.position;
         targetPos.z -= 1.2f;
-        Debug.Log(targetPos.z);
         if (targetPos.z > maximumRailLenght)
             targetPos.z = maximumRailLenght;
 
@@ -27,19 +26,3 @@ public class OverheadCamera : MonoBehaviour
         GetComponent<Transform>().position = NewPos;
     }
 }
-
-//private void ReleaseObject()
-//{
-//    // 1if (GetComponent<FixedJoint>())
-//    {
-//        // 2
-//        GetComponent<FixedJoint>().connectedBody = null;
-//        Destroy(GetComponent<FixedJoint>());
-//        // 3
-//        objectInHand.GetComponent<Rigidbody>().velocity = controllerPose.GetVelocity();
-//        objectInHand.GetComponent<Rigidbody>().angularVelocity = controllerPose.GetAngularVelocity();
-
-//    }
-//    // 4
-//    objectInHand = null;
-//}

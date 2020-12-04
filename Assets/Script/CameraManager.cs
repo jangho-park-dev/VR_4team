@@ -22,7 +22,7 @@ public class CameraManager : MonoBehaviour
         overheadCamera.enabled = true;
     }
 
-    public void ShowFirstPersonView()
+    public void ShowMainView()
     {
         firstPersonCamera.enabled = true;
         overheadCamera.enabled = false;
