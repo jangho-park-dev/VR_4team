@@ -28,7 +28,7 @@ public class BallController : MonoBehaviour
                 once = false;
             }
             // GetComponent<Rigidbody>().velocity = Vector3.Normalize(GetComponent<Rigidbody>().velocity) * (원하는 속도);
-            rb.velocity = Vector3.Normalize(rb.velocity) * startVelocity.magnitude;
+            rb.velocity = Vector3.Normalize(rb.velocity) * startVelocity.magnitude * 3.0f;
         }
     }
 }
