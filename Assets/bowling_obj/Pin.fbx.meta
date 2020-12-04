@@ -1,12 +1,34 @@
 fileFormatVersion: 2
-guid: cd76b4937ec10724c9dc2fe727aaeb48
+guid: f28e2522cd03fe4489e4ab3537f9b998
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable:
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: -623603649343465320
-    second: Scene
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 9113a163123555f4fbb018bcfee0f629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: c4ae44c2ba069b34fa1e2d44b384ae58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: c3af79ebff376a94b8a782b9302bc599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pin Stripes.001
+    second: {fileID: 2100000, guid: bc98e9f2420652141bfac60030280b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pin.001
+    second: {fileID: 2100000, guid: 855cd333e093fe846b65e4ac59c39037, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
