@@ -41,4 +41,9 @@ public class GameManager : MonoBehaviour
         PinManager.GetComponent<PinManager>().Reset();      // 볼링핀 원위치
         CameraManager.GetComponent<CameraManager>().ShowMainView(); // 메인 카메라로 전환
     }
+
+    public int GetNumFellDownPins()
+    {
+        return PinManager.GetComponent<PinManager>().GetNumFelldownPins();
+    }
 }
