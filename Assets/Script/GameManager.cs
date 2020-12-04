@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void Reset()
     {
-        MainBall.GetComponent<BowlingBall>().Reset();       // 공 원위치
+        MainBall.GetComponent<BallController>().Reset();       // 공 원위치
         PinManager.GetComponent<PinManager>().Reset();      // 볼링핀 원위치
         CameraManager.GetComponent<CameraManager>().ShowMainView(); // 메인 카메라로 전환
     }

@@ -15,10 +15,9 @@ public class ScoreManager : MonoBehaviour
             instance = this;
     }
 
-    public void AddScore(int num)
+    public void SetScore()
     {
-        score += num;
-        scoreText.text = "Score : " + score;
+        scoreText.text = "Score : " + GameObject.Find("GameManager").GetComponent<GameManager>().GetNumFellDownPins().ToString();
     }
 
     // Start is called before the first frame update

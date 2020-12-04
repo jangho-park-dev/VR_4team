@@ -8,10 +8,14 @@ public class BallController : MonoBehaviour
     
     public Vector3 startVelocity;
     public bool once;
+    Vector3 startPos;
+    Quaternion startRotation;
 
     // Start is called before the first frame update
     void Start()
     {
+        startPos = GetComponent<Transform>().position;
+        startRotation = GetComponent<Transform>().rotation;
         rb = GetComponent<Rigidbody>();
         startVelocity = new Vector3(0.0f, 0.0f, 0.0f);
         once = true;
@@ -30,5 +34,11 @@ public class BallController : MonoBehaviour
             // GetComponent<Rigidbody>().velocity = Vector3.Normalize(GetComponent<Rigidbody>().velocity) * (원하는 속도);
             rb.velocity = Vector3.Normalize(rb.velocity) * startVelocity.magnitude * 3.0f;
         }
+    }
+
+    public void Reset()
+    {
+        GetComponent<Transform>().position = startPos;
+        GetComponent<Transform>().rotation = startRotation;
     }
 }
