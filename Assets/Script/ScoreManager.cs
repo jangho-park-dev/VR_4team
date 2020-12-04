@@ -7,7 +7,6 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public Text scoreText;
-    private int score = 0;
 
     void Awake()
     {
@@ -23,12 +22,12 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //AddScore(30);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        SetScore();
     }
 }
