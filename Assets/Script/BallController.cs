@@ -32,7 +32,7 @@ public class BallController : MonoBehaviour
                 once = false;
             }
             // GetComponent<Rigidbody>().velocity = Vector3.Normalize(GetComponent<Rigidbody>().velocity) * (원하는 속도);
-            rb.velocity = Vector3.Normalize(rb.velocity) * startVelocity.magnitude * 3.0f;
+            rb.velocity = Vector3.Normalize(rb.velocity) * startVelocity.magnitude * 2.0f;
         }
 
         if (rb.transform.position.z >= 20.0f)
